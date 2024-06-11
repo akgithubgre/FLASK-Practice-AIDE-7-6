@@ -1,0 +1,35 @@
+mc_id,mc_name,,subcategory_id,subcategory,package id,package,service id,services,,service_type,service_type_id,,price,Warranty,warranty id,description,reviews,FAQ
+,,,,,,,,,,,,,,duration,,,,
+1,ac and applieances,,1,ac repair,,ac repair(split/window),,less/no colling,,Repair,89,,699,90 days,,,"{5:4.8k,4:9k,3:8}","{""dfjbnefjne"":""vjefnefvefve"",""vkefmvkerm"":""vldfmlf""}"
+1,ac and applieances,,1,ac repair,,ac repair(split/window),,power on isssue,,Repair,89,,449,30 days,,,,
+1,ac and applieances,,1,ac repair,,ac repair(split/window),,unwanted noise/smell,,Repair,89,,859,7 days,,,,
+1,ac and applieances,,1,ac repair,,ac repair(split/window),,water leakage,,Repair,89,,999,None,,,,
+1,ac and applieances,,1,ac repair,,gas leak/fix,,None,,Repair,89,,,,,,,
+1,ac and applieances,,1,ac repair,,ac install,,window ac instalaation,,install,51,,,,,,,
+1,ac and applieances,,1,ac repair,,ac install,,split ac installation,,install,51,,,,,,,
+1,ac and applieances,,1,ac repair,,ac install,,window ac uninstalaation,,Uninstall,86,,,,,,,
+1,ac and applieances,,,ac repair,,ac install,,split ac uninstall,,Uninstall,86,,,,,,,
+1,ac and applieances,,,mircrowave repair,,,,,,Installation,51,,119,None,,,,
+1,ac and applieances,,,mircrowave repair,,,,,,Uninstall,86,,569,None,,,z,
+,"here sc_id, service_type_id will become a foreign key to service_provider table",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,service table,,,,,redirected
+,,,,,,,,,,,,,,,,,,
+,in major category of skin care we have to uneecessarily add column of premium and regular pack,,,,,,,gas,30,,,,sc_id,service,service type id,,,repair/service/install
+,,,,,,,,repair,,,,,,,,,,
+,,,,,,,,compressor,,,,,,reain,,,,packages
+,,,,,,,,,,,,,,inmstallationm,,,,service
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,CATEGORY,,,,,,,,,,,,,
+,,,,,category_id,,,name,,,,,,,,,,
+,,,,,1,,,cleaning,,,,,,,,,,
+,,,,,2,,,appliance repair,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,PACKAGE,,,,,,,,,,,,,
+,,,,,package_id,,,subcat_id,,name,,,,,,,,
+,,,,,1,,,2,,power on issue,,,,,,,,
+,,,,,2,,,2,,,,,,,,,,
